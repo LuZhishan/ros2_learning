@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<launch>
+    <node pkg="topic_hz" exec="sub" name="topic_sub" output="screen">
+        <!-- <param name="topic_name" value="/perception/object_recognition/detection/clustering/output/image_raw0"/> -->
+        <param name="topic_name" value="/image_raw"/>
+        <param name="topic_type" value="camera"/>
+        <param name="pub_num" value="10"/>
+    </node>
+</launch>
