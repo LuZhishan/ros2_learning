@@ -1,0 +1,4 @@
+创建一个手动发布TF的节点。
+本节点可以发布一个或两个TF，double_frame设置为true是发布两个TF，false则之发布一个TF
+launch文件其他参数为所发布TF的父级和子级frame_id，具体TF关系可在pub文件内修改
+sub为订阅两个frame_id之间TF的节点，运行方式为“ros2 run tf_publisher sub target_frame_id base_frame_id”
