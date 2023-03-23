@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+
+<launch>
+    <node pkg="chatter_include" exec="pub" name="topic_pub" output="screen"/>
+    <node pkg="chatter_include" exec="sub" name="topic_sub" output="screen"/>
+</launch>
