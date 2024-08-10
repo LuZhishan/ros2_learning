@@ -5,13 +5,9 @@
   <version>0.22.0</version>
   <description>Examples for composing multiple nodes in a single process.</description>
 
-  <maintainer email="audrow@openrobotics.org">Audrow Nash</maintainer>
+  <maintainer email="123@456.com">root</maintainer>
 
   <license>Apache License 2.0</license>
-
-  <author email="dthomas@osrfoundation.org">Dirk Thomas</author>
-  <author email="mabel@openrobotics.org">Mabel Zhang</author>
-
   <buildtool_depend>ament_cmake</buildtool_depend>
 
   <depend>launch_ros</depend>
